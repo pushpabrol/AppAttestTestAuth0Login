@@ -6,8 +6,6 @@
 	<string>https://auth.pushpabrol.win/generate-assertion-challenge</string>
 	<key>VerifyAttestationURL</key>
 	<string>https://auth.pushpabrol.win/verify-attestation</string>
-	<key>VerifyAssertionURL</key>
-	<string>https://auth.pushpabrol.win/verify-assertion</string>
 	<key>AttestationChallengeURL</key>
 	<string>https://auth.pushpabrol.win/generate-attestation-challenge</string>
 	<key>CLIENT_ID</key>
