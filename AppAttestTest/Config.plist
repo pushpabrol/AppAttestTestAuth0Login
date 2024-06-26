@@ -3,12 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>AssertionChallengeURL</key>
-	<string>https://attestation-verification.vercel.app/generate-assertion-challenge</string>
+	<string>https://auth.pushpabrol.win/generate-assertion-challenge</string>
 	<key>VerifyAttestationURL</key>
-	<string>https://attestation-verification.vercel.app/verify-attestation</string>
+	<string>https://auth.pushpabrol.win/verify-attestation</string>
 	<key>VerifyAssertionURL</key>
-	<string>https://attestation-verification.vercel.app/verify-assertion</string>
+	<string>https://auth.pushpabrol.win/verify-assertion</string>
 	<key>AttestationChallengeURL</key>
-	<string>https://attestation-verification.vercel.app/generate-attestion-challenge</string>
+	<string>https://auth.pushpabrol.win/generate-attestation-challenge</string>
+	<key>CLIENT_ID</key>
+	<string>3FWajVhCd5qnAxEllW270gcO80iHquef</string>
+	<key>REDIRECT_URI</key>
+	<string>com.pushp.AppAttestTest://auth.pushpabrol.win/ios/com.pushp.AppAttestTest/callback</string>
+	<key>TOKEN_ENDPOINT</key>
+	<string>https://auth.pushpabrol.win/oauth/token</string>
+	<key>AUTH_ENDPOINT</key>
+	<string>https://auth.pushpabrol.win/authorize</string>
 </dict>
 </plist>
