@@ -1,6 +1,6 @@
 # App Attest, app assertion verification with auth0 endpoints 
 
-This SwiftUI project demonstrates the implementation of Apple's App Attest feature alongside the Proof Key for Code Exchange (PKCE) flow to securely authenticate users. It involves device attestation and  assertion verification with auth0 endpoints via a proxy - for validating attestations and handling assertion checls for user authentication calls
+This SwiftUI project demonstrates the implementation of Apple's App Attest feature alongside the Proof Key for Code Exchange (PKCE) flow to securely authenticate users. It involves device attestation and  assertion verification with auth0 endpoints via a proxy - for validating attestations and handling assertion checks for user authentication calls. this project assumes auth0 is behind a proxy with code in the proxy to handle attestation, assertion verification based on the attestation as well as using private key jwt for client authentication - example [Cloudflare proxy code](https://github.com/pushpabrol/cloudflare-worker-auth0-app-attest)
 
 ## Features
 
